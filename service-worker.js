@@ -1,13 +1,13 @@
-const CACHE_NAME = "wijaya-v1";
+const CACHE_NAME = "wijaya-ac-v1";
 
 const urlsToCache = [
-  "/",
-  "index.html",
-  "style.css",
-  "app.js",
-  "logo.png",
-  "icon-192.png",
-  "icon-512.png"
+  "./",
+  "./index.html",
+  "./style.css",
+  "./app.js",
+  "./logo.png",
+  "./icon-192.png",
+  "./icon-512.png"
 ];
 
 self.addEventListener("install", event => {
